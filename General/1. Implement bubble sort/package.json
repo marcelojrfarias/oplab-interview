@@ -1,0 +1,31 @@
+{
+  "name": "bubblesort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js --ignore __tests__",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelojrfarias/oplab-interview.git"
+  },
+  "keywords": [
+    "bubble",
+    "sort",
+    "bubblesort",
+    "oplab"
+  ],
+  "author": "Marcelo Farias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelojrfarias/oplab-interview/issues"
+  },
+  "homepage": "https://github.com/marcelojrfarias/oplab-interview#readme",
+  "devDependencies": {
+    "jest": "^25.2.4",
+    "nodemon": "^2.0.2"
+  }
+}
