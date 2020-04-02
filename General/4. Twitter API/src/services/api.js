@@ -5,7 +5,7 @@ const axios = require('axios')
 const api = axios.create({
   baseURL: "https://api.twitter.com/1.1",
   headers: {
-    'Authorization': `Bearer ${process.env.TWITTER_TOKEN}`,
+    'Authorization': `Bearer ${process.env.BEARER_TOKEN}`,
     'content-type': 'application/json'
   }
 })
