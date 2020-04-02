@@ -4,7 +4,7 @@ function gameOfStones (n) {
   // 3 -> P1: 3 and wins -> 'First' 
   // 4 -> P1: 3, P2: 1 and loses -> 'First'
   // 5 -> P1: 5 and wins -> 'First' 
-  // 6 -> P1: 5, P2: 1 and loses -> 'Second' 
+  // 6 -> P1: 5, P2: 1 and loses -> 'First' 
   // 7 -> P1: 2, P2: 5 and wins; P1: 3, P2: 3, P1: 1 and loses; P1: 5, P2: 2 and wins -> 'Second'
   // End of the cycle
   // 8 -> P1: 2, P2: 5, P1: 1 and loses; P1: 3, P2: 5 and wins; P1: 5, P2: 3 and wins -> 'Second'
