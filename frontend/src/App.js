@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './global.css'
+
+import Main from './pages/Main'
+
 function App() {
   return (
-    <>
-    <h1>Aria Multipurpose Onepage HTML Template</h1>
-    </>
+    <Main/>
   );
 }
 

@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.side {
+  width: 50%;
+  height: 100vh;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  .side {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.left {
+  background: #F2F2F2  url('../../assets/bg1.png') no-repeat center center;
+  background-size: cover;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+  .left {
+    min-height: 100vh;
+ }
+}
+
+.right {
+  background: #FFFFFF;
+  padding: 0 50px 0 50px;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .right {
+     -webkit-overflow-scrolling: touch;
+ }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation: landscape) {
+  .right{
+    -webkit-overflow-scrolling: touch;
+ }
+}
+
+@media only screen and (max-width: 420px) {
+  .right {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+  .container .right,  .container .left{
+    -webkit-overflow-scrolling: touch;
+  }
+}
