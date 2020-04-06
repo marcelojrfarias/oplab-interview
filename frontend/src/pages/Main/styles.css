@@ -1,3 +1,4 @@
+/* Responsive two-column layout*/
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -67,4 +68,15 @@
   .container .right,  .container .left{
     -webkit-overflow-scrolling: touch;
   }
+}
+
+/* App Icon */
+.app-icon {
+	padding: 50px 0 0 0;
+	text-align: left;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
 }
