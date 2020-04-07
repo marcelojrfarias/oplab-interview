@@ -26,13 +26,19 @@
 @media only screen and (max-width: 800px) {
   .side {
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
   }
 }
 
 .left {
   background: #F2F2F2  url('../../assets/bg1.png') no-repeat center center;
   background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  .left {
+    min-height: 100vh;
+  }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
