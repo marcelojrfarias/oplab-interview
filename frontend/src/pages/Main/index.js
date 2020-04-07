@@ -19,6 +19,7 @@ export default function Main () {
         </div>
 
         <div className="introduction">
+
           <div className="text">
             <h4>Messenger for Anonymous</h4>
             <h1>Send voice and text message anonymously</h1>
@@ -28,10 +29,21 @@ export default function Main () {
             </p>
             <h3>Download Aria for free on</h3>
           </div>
+
           <div className="image-container">
             <a href="/#"><img className="image" src={appStore} alt="Icon" /></a>
             <a href="/#"><img className="image" src={playStore} alt="Icon" /></a>
           </div>
+
+        </div>
+
+        <div className="footer">
+          <span className="footer-credits">© Aria Messenger 2016</span>
+          <ul>
+            <li><a href="/#">Facebook</a></li>
+            <li><a href="/#">Twitter</a></li>
+            <li><a href="/#">Instagram</a></li>
+          </ul>
         </div>
 
       </div>
