@@ -3,6 +3,8 @@ import React from 'react'
 import './styles.css'
 
 import appIcon from '../../assets/app_icon.png'
+import appStore from '../../assets/appstore.png'
+import playStore from '../../assets/playstore.png'
 
 export default function Main () {
   return (
@@ -13,7 +15,7 @@ export default function Main () {
       <div className="side right">
 
         <div className="icon">
-          <img className="app-icon" src={appIcon} alt="Logo"/>
+          <a href="/#"><img className="app-icon" src={appIcon} alt="Logo"/></a>
         </div>
 
         <div className="introduction">
@@ -26,7 +28,12 @@ export default function Main () {
             </p>
             <h3>Download Aria for free on</h3>
           </div>
+          <div className="image-container">
+            <a href="/#"><img className="image" src={appStore} alt="Icon" /></a>
+            <a href="/#"><img className="image" src={playStore} alt="Icon" /></a>
+          </div>
         </div>
+
       </div>
       
     </div>
